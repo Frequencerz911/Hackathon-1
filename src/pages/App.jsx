@@ -1,9 +1,11 @@
 function App() {
-	return (
-		<div>
-			<p>Template SACOD</p>
-		</div>
-	);
+  return (
+    <section className="bgapp">
+      <header>
+	  	<img className="soundon" src="src\assets\Image\du-son.png" alt="sound on"></img>
+      </header>
+    </section>
+  );
 }
 
 export default App;
