@@ -24,7 +24,6 @@ function Home() {
           <source src="src\assets\Song\Kosmorider.mp3" type="audio/mpeg" />
           <track kind="captions" label="French" srcLang="fr" src="" default />
         </audio>
-        {/* <img className="soundon" src="src\assets\Image\du-son.png" alt="sound on"></img> */}
       </header>
       <div className="Home">
         <h1> Spooky Bounce</h1>
