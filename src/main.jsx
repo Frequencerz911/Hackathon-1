@@ -7,6 +7,7 @@ import App from "./pages/App.jsx";
 import Page404 from "./pages/Page404.jsx";
 import "./Home.css";
 import "./App.css";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       {
-        path: "/Home",
+        path: "/",
         element: <Home />,
       },
       {
