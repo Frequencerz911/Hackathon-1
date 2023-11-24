@@ -16,7 +16,7 @@
   }
   
   h1 {
-    color: orange;
+    color: #f7941e;
     font-weight: bold;
     font-size: 10rem;
     display: flex;
@@ -44,16 +44,16 @@
   
   .buttonplay:hover,
   :focus {
-    color: #ffffff;
-    background: #e48c27;
-    border: 1px solid rgba(122, 23, 5, 1);
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
-    box-shadow: 0 0 5px #e48c27, 0 0 20px #e48c27, 0 0 50px #e48c27,
-      0 0 100px #e48c27;
+    color: #f7f3f3;
+    background: #f7941e;
+    border: 1px solid #7a1705;
+    text-shadow: 0 0 5px #f7f3f3, 0 0 10px #f7f3f3, 0 0 20px #f7f3f3;
+    box-shadow: 0 0 5px #f7941e, 0 0 20px #f7941e, 0 0 50px #f7941e,
+      0 0 100px #f7941e;
   }
   
   .soundon {
-    background-color: #ffffff;
+    background-color: #f7f3f3;
     border-radius: 50%;
     padding: 10px;
     width: 30px;
