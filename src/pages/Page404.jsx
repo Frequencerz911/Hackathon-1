@@ -27,6 +27,12 @@ function Page404() {
         <source src="src\assets\Song\Kosmorider.mp3" type="audio/mpeg" />
         <track kind="captions" label="French" srcLang="fr" src="" default />
       </audio>
+      <img className="img404" src="src\assets\Image\404img.png" alt=" " />
+      <Link to="/">
+        <button type="button" className="button404">
+          Nothing to do over here, Go back home...
+        </button>
+      </Link>
     </div>
   );
 }
