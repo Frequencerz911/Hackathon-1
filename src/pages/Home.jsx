@@ -26,7 +26,7 @@ function Home() {
         </audio>
       </header>
       <div className="Home">
-        <h1> Spooky Bounce</h1>
+        <h1> Spooky Clicker</h1>
         <div>
           <Link to="/App">
             <button className="buttonplay" type="button">

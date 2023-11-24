@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PumpkinGame from "../components/PumpkinGame";
 
 function App() {
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
@@ -24,6 +25,7 @@ function App() {
           <track kind="captions" label="French" srcLang="fr" src="" default />
         </audio>
       </header>
+      <PumpkinGame />
     </section>
   );
 }
