@@ -1,0 +1,26 @@
+.bgapp {
+    background-image: url("./assets/Image/smokeskull.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pumpkin-ctn {
+    height: 100vh;
+  }
+  
+    .pumpkin-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 3rem;
+      color: orange;
+      height: 100vh;
+    }
+  
+    h2 {
+      font-size: 10rem;
+    }
+  
+    h3 {
+      font-size: 5rem;
+    }

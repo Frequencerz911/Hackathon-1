@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  body {
+    background-image: url("./assets/Image/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    color: #f7941e;
+    font-weight: bold;
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16%;
+    margin-bottom: 3%;
+  }
+  
+  .buttonplay {
+    margin-left: 42%;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease; 
+    cursor: pointer;
+  }
+  
+  .buttonplay:hover,
+  :focus {
+    color: #f7f3f3;
+    background: #f7941e;
+    border: 1px solid #7a1705;
+    text-shadow: 0 0 5px #f7f3f3, 0 0 10px #f7f3f3, 0 0 20px #f7f3f3;
+    box-shadow: 0 0 5px #f7941e, 0 0 20px #f7941e, 0 0 50px #f7941e,
+      0 0 100px #f7941e;
+  }
+  
+  .soundon {
+    background-color: #f7f3f3;
+    border-radius: 50%;
+    padding: 10px;
+    width: 30px;
+  }
+  
